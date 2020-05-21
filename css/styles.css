@@ -1,0 +1,89 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #ccc;
+  color: black;
+}
+
+.masthead {
+  background-color: #0A87D1;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
+/* Navigation styles */
+#navigation, #navigation a {
+  color: white;
+  background: #FF8C00;
+}
+
+#navigation a:hover {
+  color: black;
+  background: #FFB55A;
+}
+
+#navigation a.active {
+  color: white;
+  background: #E36B00;
+}
+
+#navigation a.active:hover {
+  color: black;
+  background: #E36B00;
+}
+
+.reference:visited {
+  color: gray;
+  background: white;
+}
+
+/* Content styles */
+.content {
+  background: white;
+  color: black;
+  min-height: 100vh;
+  padding-top: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+.articletitle {
+  padding-top: 25px;
+}
+
+.articleimg {
+  float: left;
+  margin: auto 25px 0 0;
+}
+
+.previewimg {
+  width: 50%;
+  margin: auto 25px 25px 0;
+}
+
+.clear {
+  clear: both;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+/* For implementing sticky navigation */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  opacity: 0.9;
+}
+.sticky:hover {
+  opacity: 1;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
