@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Project 4 - College Expenses Articles</title>
+</head>
+<body>
+  <!-- Masthead -->
+  <div class="jumbotron jumbotron-fluid masthead">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">
+        <i class="fas fa-graduation-cap"></i>
+        College is Expensive
+        <i class="fas fa-coins"></i>
+      </h1>
+    </div>
+  </div>
+
+  <!-- Navigation pills -->
+  <ul class="nav nav-pills nav-justified" id="navigation">
+    <li class="nav-item">
+      <a class="nav-link active" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="demand.html">Supply and Demand</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="othercosts.html">Additional Costs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="loans.html">Federal Student Aid</a>
+    </li>
+  </ul>
+
+
+  <!-- Article previews -->
+  <div class="container content">
+    <article>
+      <h3><a href="demand.html">High Tuition Due to Supply and Demand</a></h3>
+      <p class="text-muted">Wednesday, 24 April 2019</p>
+      <img class="previewimg img-fluid rounded" src="img/collegecampus.jpg" alt="College Campus">
+      <p>A college degree is seen by many people as a necessity for any profession in today's job market. Colleges are able to set their tuition prices to whatever they want because of this high demand. Not all jobs actually need a college degree, which causes students to strive for degrees that are less than useful. For some, there is a fear of failure if they don't get a college education. Before deciding to go to college, one should think about their career paths and determine if a college degree is actually required. A college degree is not the best investment for some people because of the high costs involved and not much return.</p>
+      <p>...</p>
+      <a href="demand.html">Read more</a>
+    </article>
+    <hr>
+    <article>
+      <h3><a href="othercosts.html">Additional Costs, Fees, and More!</a></h3>
+      <p class="text-muted">Thursday, 25 April 2019</p>
+      <img class="previewimg img-fluid rounded" src="img/books.jpg" alt="Textbooks">
+      <p>There are many other costs students must consider in addition to their tuition.
+         Let us list some of these factors in a table below and then analyze them.</p>
+      <table>
+        <tr>
+          <th>Additional factors</th>
+          <th>Other fees</th>
+        </tr>
+        <tr>
+          <td>Meal plans</td>
+          <td>Software fees</td>
+        </tr>
+        <tr>
+          <td>Housing</td>
+          <td>Freshmen fees</td>
+        </tr>
+        <tr>
+          <td>Transportation</td>
+          <td>Gym fees</td>
+        </tr>
+        <tr>
+          <td>Parking garage</td>
+          <td>Online course fees</td>
+        </tr>
+        <tr>
+          <td>Textbooks and supplies</td>
+          <td>Graduation fees</td>
+        </tr>
+      </table>
+      <p>...</p>
+      <a href="othercosts.html">Read more</a>
+    </article>
+    <hr>
+    <article>
+      <h3><a href="loans.html">Federal Aid Contributes to the Problem</a></h3>
+      <p class="text-muted">Friday, 26 April 2019</p>
+      <img class="previewimg img-fluid rounded" src="img/loans.jpg" alt="Bank Account Notes">
+      <p>Today, the rising cost of college tuition is just not affordable for most individuals.
+         However, students are able to attend college and receive their higher education through the help of federal student aid.
+         Federal student aid helps to alleviate the costs, who otherwise might not have been able to finance their education.
+         Unexpectedly, this just raises tuition costs even more.
+      </p>
+      <p>...</p>
+      <a href="loans.html">Read more</a>
+    </article>
+    <hr>
+    <article>
+      <em>Disclaimer: These articles are not intended to offend any readers.
+         They simply illustrate a different point of view backed by reasons.
+         It is perfectly fine to disagree with the viewpoint brought up in any of these articles.</em>
+    </article>
+  </div>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navigation");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>

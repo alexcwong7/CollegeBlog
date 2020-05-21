@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Project 4 - College Expenses Articles</title>
+</head>
+<body>
+  <!-- Masthead -->
+  <div class="jumbotron jumbotron-fluid masthead">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">
+        <i class="fas fa-graduation-cap"></i>
+        College is Expensive
+        <i class="fas fa-coins"></i>
+      </h1>
+    </div>
+  </div>
+
+  <!-- Navigation pills -->
+  <ul class="nav nav-pills nav-justified" id="navigation">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="demand.html">Supply and Demand</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="othercosts.html">Additional Costs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="loans.html">Federal Student Aid</a>
+    </li>
+  </ul>
+
+
+  <!-- Article previews -->
+  <article class="container content">
+    <div><a href="index.html">&#8592; Back to home</a></div>
+    <h2 class="articletitle">Federal Student Aid Contributes to the Problem</h2>
+    <p class="text-muted">Friday, 26 April 2019</p>
+    <hr>
+    <img class="articleimg img-fluid rounded" src="img/loans.jpg" alt="Student Loans">
+    <p>Today, the rising cost of college tuition is just not affordable for most individuals.
+       However, students are able to attend college and receive their higher education through the help of federal student aid.
+       Federal student aid helps to alleviate the costs, who otherwise might not have been able to finance their education.
+       Unexpectedly, this just raises tuition costs even more.
+    </p>
+    <p>Nowadays, student aid is everywhere and it is easily obtainable by students. This includes grants and loans.
+       Grants you don't have to pay back, but it still doesn't help the overall problem.
+       It is a never ending cycle. More aid becomes available, the more the tuition increases.
+       This contributes to the fact that colleges are able to keep their tuition high because they know they will still be able to attract students.
+    </p>
+    <p>Students, knowing they can just take out loans, causes them to ignore the big numbers in front of them.
+       Students tend to think in the short term.
+       They will accept any aid they can get and don't think about the debt they will have to pay off after they receive their degree.
+       They think that you can get any college degree and they will be able to pay it off immediately.
+       Unfortunately, this is not the case.
+       For the duration of their education, everything is jolly, until they graduate and the burden is placed upon them.
+    </p>
+    <p>
+       Many students are in debt.
+       Student loan debt in the United States is sitting over $1.5 trillion dollars.
+       Students must choose their career path wisely and think long term financial risks.
+       When you take out a loan, you are just borrowing money. You have to pay it off eventually.
+       For some majors, it will be a lot harder and take a lot longer to pay off their debt.
+       Paying off your loans is very hard due to high interest rates that will keep increasing until you pay it off.
+    </p>
+    <p class="clear"></p>
+    <hr>
+    <div>References</div>
+    <ul>
+      <li><a class="reference" target="_blank" href="https://www.cornerstone.edu/blogs/lifelong-learning-matters/post/why-is-college-tuition-rising-so-much-and-what-can-you-do">https://www.cornerstone.edu/blogs/lifelong-learning-matters/post/why-is-college-tuition-rising-so-much-and-what-can-you-do</a></li>
+      <li><a class="reference" target="_blank" href="https://www.andrewjensen.net/why-is-college-so-expensive/">https://www.andrewjensen.net/why-is-college-so-expensive/</a></li>
+      <li><a class="reference" target="_blank" href="https://www.businessinsider.com/why-is-college-so-expensive-2018-4">https://www.businessinsider.com/why-is-college-so-expensive-2018-4</a> </li>
+    </ul>
+    <div>Other articles</div>
+    <ul>
+      <li><a href="demand.html">High Tuition Due to Supply and Demand</a></li>
+      <li><a href="othercosts.html">Additional Costs, Fees, and More!</a></li>
+    </ul>
+  </article>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navigation");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>

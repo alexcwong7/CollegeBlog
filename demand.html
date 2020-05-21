@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <title>Project 4 - College Expenses Articles</title>
+</head>
+<body>
+  <!-- Masthead -->
+  <div class="jumbotron jumbotron-fluid masthead">
+    <div class="container">
+      <h1 class="display-4 font-weight-bold">
+        <i class="fas fa-graduation-cap"></i>
+        College is Expensive
+        <i class="fas fa-coins"></i>
+      </h1>
+    </div>
+  </div>
+
+  <!-- Navigation pills -->
+  <ul class="nav nav-pills nav-justified" id="navigation">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link active" href="demand.html">Supply and Demand</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="othercosts.html">Additional Costs</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="loans.html">Federal Student Aid</a>
+    </li>
+  </ul>
+
+
+  <!-- Article previews -->
+  <article class="container content">
+    <div><a href="index.html">&#8592; Back to home</a></div>
+    <h2 class="articletitle">High Tuition Due to Supply and Demand</h2>
+    <p class="text-muted">Wednesday, 24 April 2019</p>
+    <hr>
+    <img class="articleimg img-fluid rounded" src="img/collegecampus.jpg" alt="College Campus">
+    <p>A college degree is seen by many people as a necessity for any profession in today's job market.
+       Colleges are able to set their tuition prices to whatever they want because of this high demand.
+       Not all jobs actually need a college degree, which causes students to strive for degrees that are less than useful.
+       For some, there is a fear of failure if they don't get a college education.
+       Before deciding to go to college, one should think about their career paths and determine if a college degree is actually required.
+       A college degree is not the best investment for some people because of the high costs involved and not much return.
+    </p>
+    <p>Higher costs are also due to the perceived notion that higher cost = higher quality.
+       Students are willing to pay the extra dollars to attend a more "prestigous" university.
+       If they are already going to be paying thousands of dollars, what harm does a little extra do?
+       This thought process causes an increased student debt, which is harder for them to dig themselves out of.
+     </p>
+    <p>As enrollment dramatically increases, more professors are needed to accommodate the influx of students.
+       Hiring highly educated individuals is a very hard process and can be very costly.
+       Universities raise tuition prices to help pay for these additional professors.
+       They also try to cut costs on themselves by fitting more students in already crowded classes.
+    </p>
+    <p>The hike in enrollment numbers also have an effect on state funding.
+       States can't keep up with the exponential increase in numbers and they provide less, while students pay more.
+       Around 80% of students attend public institutions so it has a large impact.
+       Private colleges are more expensive, but public colleges are slowly reaching to the same expense level.
+       State funding for higher public education has been cut and colleges are forced to replace this with higher tuition costs.
+    </p>
+    <p class="clear"></p>
+    <hr>
+    <div>References</div>
+    <ul>
+      <li><a class="reference" target="_blank" href="https://www.andrewjensen.net/why-is-college-so-expensive/">https://www.andrewjensen.net/why-is-college-so-expensive/</a></li>
+      <li><a class="reference" target="_blank" href="https://www.businessinsider.com/why-is-college-so-expensive-2018-4">https://www.businessinsider.com/why-is-college-so-expensive-2018-4</a></li>
+    </ul>
+    <div>Other articles</div>
+    <ul>
+      <li><a href="othercosts.html">Additional Costs, Fees, and More!</a></li>
+      <li><a href="loans.html">Federal Student Aid Contributes to the Problem</a></li>
+    </ul>
+  </article>
+
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  <script>
+    window.onscroll = function() {myFunction()};
+
+    var navbar = document.getElementById("navigation");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky")
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</body>
+</html>
